@@ -16,9 +16,7 @@ if __name__ == '__main__':
         if is_palindrom(word):
             print('Word "{}" is palindrom.'.format(word))
         else:
-            print(
-                'Word "{}" is not palindrom.'.format(
-                    word))
+            print('Word "{}" is not palindrom.'.format(word))
 
     if is_anagram(word_1, word_2):
         print('Words "{}" and "{}" are anagram.'.format(word_1, word_2))
